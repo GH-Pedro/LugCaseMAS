@@ -1,2 +1,2 @@
 # LugCaseMAS
-Implementação do trabalho final
+Implementação do trabalho de MAS

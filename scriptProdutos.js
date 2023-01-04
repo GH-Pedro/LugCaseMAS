@@ -468,7 +468,7 @@ function ViewModel(){
       });
       
       self.checkForm1 = ko.computed(function(){
-        return true; // Ativar 1 modal
+        //return true; // Ativar 1 modal
         recolha = self.localRecolha();
         entrega = self.localEntrega();
         dia = self.diaRecolha();
@@ -496,7 +496,7 @@ function ViewModel(){
         }
     });
     self.checkForm2 = ko.computed(function(){
-        return true;  // Ativar 2 modal
+        //return true;  // Ativar 2 modal
         if(self.checkNumber() && self.checkBagagens()){
             return true
         }
